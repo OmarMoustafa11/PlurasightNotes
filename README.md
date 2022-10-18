@@ -28,6 +28,14 @@ After All and BeforeAll are at the class level and so are static
 JUnit 5 provides a DisplayName annotation that allows us to specify the text it'll use to build a report instead of the
 class and method names.
 
+Some JUnit Annotations
+
+@Test @DisplayName @BeforeEach @AfterEach @BeforeAll
+
+Some JUnit Assertions
+
+assertEquals assertFalse assertNull assertAll assertTrue
+
 To temporarily siable a unit test from running you use the diabled annotation in Junit 5.
 
 Junit provides a mechansim that gives us the ability to tage test classes and test methods and excute test by tag
